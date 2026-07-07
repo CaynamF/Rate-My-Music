@@ -8,18 +8,25 @@
 
     <style>
         body {
+            color: #A6A6A6;
             background-color: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1,
+        .voltar {
+            background-color: #353535;
+            border: 1px solid #A6A6A6;
+            border-radius: 5px;
+            padding: 10px;
         }
 
         h1 {
             color: #A6A6A6;
-            background-color: #353535;
         }
 
-        h2,
-        h3,
-        p {
-            color: #A6A6A6;
+        .voltar {
+            margin: 10px 0;
         }
 
         a {
@@ -32,22 +39,32 @@
         .biografia,
         .discografia {
             background-color: #353535;
+            border: 1px solid #A6A6A6;
+            border-radius: 5px;
+            padding: 10px;
         }
 
-        .album,
-        .single,
-        .ep {
+        .foto,
+        .links,
+        .discografia {
+            margin: 10px 0;
+        }
+
+        .card {
             background-color: #505050;
+            border: 1px solid #A6A6A6;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0px;
         }
 
         .foto img {
-            width: 400px;
-            height: 400px;
+            border-radius: 5px;
+            max-width: 100%;
+            height: auto;
         }
 
-        .album img,
-        .single img,
-        .ep img {
+        .card img {
             width: 100px;
             height: 100px;
         }
@@ -55,100 +72,106 @@
 </head>
 
 <body>
-    <a href="../../index.html">Voltar</a>
-
-    <h1>System Of A Down</h1>
-    <section class="foto">
-        <img src="https://lastfm.freetls.fastly.net/i/u/770x0/6398ca18f0a2e396655dcc92628f0b36.jpg#6398ca18f0a2e396655dcc92628f0b36"
-            alt="System Of A Down" width="400" height="400">
+    <section class="voltar">
+        <a href="../../index.html">Voltar</a>
     </section>
-    <section class="links">
-        <a href="https://open.spotify.com/intl-pt/artist/5eAWCfyUhZtHHtBdNk56l1?si=PcQNrb2GSUGlcKd1EExD_w"
-            target="_blank" rel="noopener noreferrer">Spotify</a>
-    </section>
-    <section class="biografia">
-        <p>System of a Down (também conhecida como SOAD ou simplesmente System) é uma banda de metal alternativo
-            armênio-americana formada em Glendale, Califórnia, em 1994. Desde 1997, banda é composta pelo vocalista
-            principal Serj Tankian, o guitarrista solo e vocalista Daron Malakian, o baixista Shavo Odadjian e o
-            baterista John Dolmayan, que substituiu o baterista original Andy Khachaturian.</p>
-    </section>
-    <section class="discografia">
-        <h2>Discografia</h2>
-        <h3>Álbuns</h3>
-        <div class="album">
-            <p>1998 - System Of A Down</p>
-            <a href="#"><img src="imagens/System Of A Down.jpg" alt="System Of A Down"></a>
-        </div>
-        <div class="album">
-            <p>1998 - System Of A Down (Bonus Pack)</p>
-            <a href="#"><img src="imagens/System Of A Down (Bonus Pack).jpg" alt="System Of A Down (Bonus Pack)"></a>
-        </div>
-        <div class="album">
-            <p>1998 - System Of A Down (Deluxe)</p>
-            <a href="#"><img src="imagens/System Of A Down (Deluxe).jpg" alt="System Of A Down (Deluxe)"></a>
-        </div>
-        <div class="album">
-            <p>2001 - Toxicity</p>
-            <a href="#"><img src="imagens/Toxicity.jpg" alt="Toxicity"></a>
-        </div>
-        <div class="album">
-            <p>2002 - Steal This Album!</p>
-            <a href="#"><img src="imagens/Steal This Album!.jpg" alt="Steal This Album!"></a>
-        </div>
-        <div class="album">
-            <p>2005 - Mezmerize</p>
-            <a href="#"><img src="imagens/Mezmerize.jpg" alt="Mezmerize"></a>
-        </div>
-        <div class="album">
-            <p>2005 - Hypnotize</p>
-            <a href="#"><img src="imagens/Hypnotize.jpg" alt="Hypnotize"></a>
-        </div>
 
-        <h3>Singles</h3>
+    <main>
+        <h1>System Of A Down</h1>
+        
+        <section class="foto">
+            <img src="https://lastfm.freetls.fastly.net/i/u/770x0/6398ca18f0a2e396655dcc92628f0b36.jpg#6398ca18f0a2e396655dcc92628f0b36"
+                alt="System Of A Down" width="400" height="400">
+        </section>
 
-        <div class="single">
-            <p>1999 - Chop Suey!</p>
-            <a href="#"><img src="imagens/Chop Suey.jpg" alt="Chop Suey!"></a>
-        </div>
-        <div class="single">
-            <p>1999 - Toxicity</p>
-            <a href="#"><img src="imagens/S-Toxicity.jpg" alt="Toxicity"></a>
-        </div>
-        <div class="single">
-            <!--É a mesma capa mesmo...-->
-            <p>2000 - Lonely Day</p>
-            <a href="#"><img src="imagens/Vicinity Of Obscenity+Lonely Day.jpg" alt="Lonely Day"></a>
-        </div>
-        <div class="single">
-            <p>2001 - Chop Suey!</p>
-            <a href="#"><img src="imagens/Chop Suey.jpg" alt="Chop Suey!"></a>
-        </div>
-        <div class="single">
-            <p>2001 - Toxicity</p>
-            <a href="#"><img src="imagens/S-Toxicity.jpg" alt="Toxicity"></a>
-        </div>
-        <div class="single">
-            <p>2002 - Aerials</p>
-            <a href="#"><img src="imagens/Aerials.jpg" alt="Aerials"></a>
-        </div>
-        <div class="single">
-            <p>2020 - Protect The Land / Genocidal Humanoidz</p>
-            <a href="#"><img src="imagens/Protect The Land + Genocidal Humanoidz.jpg"
-                    alt="Protect The Land / Genocidal Humanoidz"></a>
-        </div>
+        <section class="links">
+            <a href="https://open.spotify.com/intl-pt/artist/5eAWCfyUhZtHHtBdNk56l1?si=PcQNrb2GSUGlcKd1EExD_w"
+                target="_blank" rel="noopener noreferrer">Spotify</a>
+        </section>
 
-        <h3>EP</h3>
+        <section class="biografia">
+            <p>System of a Down (também conhecida como SOAD ou simplesmente System) é uma banda de metal alternativo
+                armênio-americana formada em Glendale, Califórnia, em 1994. Desde 1997, banda é composta pelo vocalista
+                principal Serj Tankian, o guitarrista solo e vocalista Daron Malakian, o baixista Shavo Odadjian e o
+                baterista John Dolmayan, que substituiu o baterista original Andy Khachaturian.</p>
+        </section>
 
-        <div class="ep">
-            <p>2001 - Chop Suey!</p>
-            <a href="#"><img src="imagens/Chop Suey.jpg" alt="Chop Suey!"></a>
-        </div>
-        <div class=" ep">
-            <p>2006 - Vicinity Of Obscenity/Lonely Day</p>
-            <a href="#"><img src="imagens/Vicinity Of Obscenity+Lonely Day.jpg"
-                    alt="Vicinity Of Obscenity/Lonely Day"></a>
-        </div>
-    </section>
+        <section class="discografia">
+            <h2>Discografia</h2>
+            <h3>Álbuns</h3>
+            <article class="card">
+                <p>1998 - System Of A Down</p>
+                <a href="#"><img src="imagens/System Of A Down.jpg" alt="System Of A Down"></a>
+            </article>
+            <article class="card">
+                <p>1998 - System Of A Down (Bonus Pack)</p>
+                <a href="#"><img src="imagens/System Of A Down (Bonus Pack).jpg" alt="System Of A Down (Bonus Pack)"></a>
+            </article>
+            <article class="card">
+                <p>1998 - System Of A Down (Deluxe)</p>
+                <a href="#"><img src="imagens/System Of A Down (Deluxe).jpg" alt="System Of A Down (Deluxe)"></a>
+            </article>
+            <article class="card">
+                <p>2001 - Toxicity</p>
+                <a href="#"><img src="imagens/Toxicity.jpg" alt="Toxicity"></a>
+            </article>
+            <article class="card">
+                <p>2002 - Steal This Album!</p>
+                <a href="#"><img src="imagens/Steal This Album!.jpg" alt="Steal This Album!"></a>
+            </article>
+            <article class="card">
+                <p>2005 - Mezmerize</p>
+                <a href="#"><img src="imagens/Mezmerize.jpg" alt="Mezmerize"></a>
+            </article>
+            <article class="card">
+                <p>2005 - Hypnotize</p>
+                <a href="#"><img src="imagens/Hypnotize.jpg" alt="Hypnotize"></a>
+            </article>
+
+            <h3>Singles</h3>
+            <article class="card">
+                <p>1999 - Chop Suey!</p>
+                <a href="#"><img src="imagens/Chop Suey.jpg" alt="Chop Suey!"></a>
+            </article>
+            <article class="card">
+                <p>1999 - Toxicity</p>
+                <a href="#"><img src="imagens/S-Toxicity.jpg" alt="Toxicity"></a>
+            </article>
+            <article class="card">
+                <!--É a mesma capa mesmo...-->
+                <p>2000 - Lonely Day</p>
+                <a href="#"><img src="imagens/Vicinity Of Obscenity+Lonely Day.jpg" alt="Lonely Day"></a>
+            </article>
+            <article class="card">
+                <p>2001 - Chop Suey!</p>
+                <a href="#"><img src="imagens/Chop Suey.jpg" alt="Chop Suey!"></a>
+            </article>
+            <article class="card">
+                <p>2001 - Toxicity</p>
+                <a href="#"><img src="imagens/S-Toxicity.jpg" alt="Toxicity"></a>
+            </article>
+            <article class="card">
+                <p>2002 - Aerials</p>
+                <a href="#"><img src="imagens/Aerials.jpg" alt="Aerials"></a>
+            </article>
+            <article class="card">
+                <p>2020 - Protect The Land / Genocidal Humanoidz</p>
+                <a href="#"><img src="imagens/Protect The Land + Genocidal Humanoidz.jpg"
+                        alt="Protect The Land / Genocidal Humanoidz"></a>
+            </article>
+
+            <h3>EP</h3>
+            <article class="card">
+                <p>2001 - Chop Suey!</p>
+                <a href="#"><img src="imagens/Chop Suey.jpg" alt="Chop Suey!"></a>
+            </article>
+            <article class="card">
+                <p>2006 - Vicinity Of Obscenity/Lonely Day</p>
+                <a href="#"><img src="imagens/Vicinity Of Obscenity+Lonely Day.jpg"
+                        alt="Vicinity Of Obscenity/Lonely Day"></a>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
